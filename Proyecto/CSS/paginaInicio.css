@@ -1,0 +1,25 @@
+.btn_azul {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #0095DA;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: center;
+}
+.btn_azul:visited{
+    color: white;
+}
+h3~p{
+    color: #212529;
+}
+@media(min-width:768px){
+    
+}
+@media(min-width:992px){
+
+}
