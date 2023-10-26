@@ -17,6 +17,9 @@
 h3~p{
     color: #212529;
 }
+div + h5{
+    text-decoration: underline;
+}
 @media(min-width:768px){
     
 }
