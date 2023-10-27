@@ -1,0 +1,17 @@
+:root{/*Variables para los colores*/
+    --color-principal:#212529;
+    --color-secundario:#a4a5a6;
+    --color-boton:#0095DA;
+    --texto-boton:#fff;
+}
+@media(min-width:768px){
+   
+}
+
+@media(min-width:992px){
+    .imagenPortada,.carousel{
+        height: 700px;
+        padding: 0;
+        margin: 0;
+    }
+}

@@ -11,16 +11,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/paginaHeladeria.css">
   <link rel="shortcut icon" href="../Imagenes/Logo.png" type="image/png">
-  <link rel="stylesheet" href="../CSS/paginaInicio.css">
-  <link rel="stylesheet" href="../CSS/paraBorrar.css">
 </head>
 
 <body>
   <header>
     <!-- place navbar here -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <a class="navbar-brand" href="../html/index.html"><img src="../Imagenes/Logo.png" alt="" width="120px"
+      <a class="navbar-brand" href="../html/index.html"><img src="../Imagenes/Logo.png" alt="logo" width="120px"
           height="100px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -30,15 +29,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Quien somos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Datos de la empresa</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Nuestros servicios</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Pizzeria</a></li>
-              <li><a class="dropdown-item" href="#">Heladeria</a></li>
-              <li><a class="dropdown-item" href="#">Zona Infantil</a></li>
+              <li><a class="dropdown-item" href="../html/heladeria.html">Heladeria</a></li>
               <li><a class="dropdown-item" href="#">Quisco el parque</a></li>
             </ul>
           </li>
@@ -47,13 +42,13 @@
     </nav>
   </header>
   <main>
-    <div class="container-fluid"> <!-- Crea un contenedor fluido que ocupa todo el ancho -->
-      <div class="row"> <!-- Crea una fila que contiene las columnas -->
-        <div class="col-md-6"> <!-- Crea una columna que ocupa la mitad del espacio en pantallas medianas o mayores -->
-          <img src="../Imagenes/ImagenPortada.png" alt="Imagen emparejada" class="img-responsive"> <!-- Aquí puedes poner la ruta de tu imagen emparejada, y usar la clase img-responsive para que se adapte al tamaño de la columna -->
-        </div>
-        <div class="col-md-6">
-          <div id="carouselExampleCaptions"class="carousel slide  mx-auto d-block ">
+    <div class="container-md"> <!-- Crea un contenedor que contiene el slide y la imagen-->
+        <div class="row"> 
+          <div class="col-lg-6"> <!-- Crea una columna que ocupa la mitad del espacio en pantallas medianas o mayores -->
+            <img src="../Imagenes/MuralHeladeria.png" alt="Imagen mural" class="d-block w-100 img-fluid float-end">
+          </div>
+          <!--Inicio slideshow-->
+          <div id="carouselExampleCaptions"class="col-lg-6 col-md-12 col-sm-12  carousel slide  mx-auto d-block ">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -64,21 +59,21 @@
             </div>
             <div class="carousel-inner"><!--Contenedor slideshow-->
               <div class="carousel-item active">
-                <img src="../Imagenes/HamburgueseriaPaginaPrincipal2.jpg" class=" d-block w-100 " alt="...">
+                <img src="../Imagenes/CafeCroissant.jpg" class=" d-block w-100 img-fluid float-start carousel" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Hamburguesería</h5>
+                  
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../Imagenes/PizzeriaPaginaPrincipal.jpg" class="d-block w-100 " alt="...">
+                <img src="../Imagenes/TarrinaHelado.jpg" class="d-block w-100 img-fluid float-start carousel" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5> Pizzeria</h5>
+                 
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../Imagenes/HeladeriaPaginaPrincipal.jpg" class="d-block w-100 " alt="...">
+                <img src="../Imagenes/Granizado.jpg" class="d-block w-100 img-fluid float-start carousel" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Heladeria</h5>
+                  
                 </div>
               </div>
             </div>
@@ -94,8 +89,6 @@
             </button>
           </div>
         </div>
-      </div>
-    </div>
   </main>
   <footer class="container-fluid">
     <!-- place footer here -->
@@ -157,7 +150,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/ismaassnchzz/" target="_blank">
+            <a href="https://www.instagram.com/ismaassnchzz_/" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
                 viewBox="0 0 16 16">
                 <path
@@ -169,16 +162,14 @@
       </div>
     </div>
   </footer>
-  </div>
-
   <!-- Bootstrap JavaScript Libraries -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
+    </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-</script>
+    </script>
 </body>
 
 </html>
