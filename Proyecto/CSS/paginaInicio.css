@@ -23,12 +23,16 @@
 h3~p{
     color: var(--color-principal);
 }
+
 @media(min-width:768px){
-    
+ 
 }
 @media(min-width:992px){
     .imagenReparto{
         width:80% ;
     }
-    
+    .imagenPortada{
+        display: block;
+
+    }
 }

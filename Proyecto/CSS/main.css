@@ -5,10 +5,8 @@
     --color-principal:#212529;
     --color-secundario:#a4a5a6;
 }
-body{
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
+main{
+   margin: 0 auto;
 }
 .espaciarElementos{
     padding: 20px;
@@ -23,7 +21,8 @@ footer{
     margin-top: 20px;
     background-color: var(--color-principal);
     color: var(--color-secundario);
-    width: 100%;
+    margin-bottom: 0px;
+    padding-right: 0px;
 }
 h3{
     text-align: center;
@@ -64,5 +63,6 @@ ul li a:visited{
     h3{
         text-align: left;
     }
+
 }
 
