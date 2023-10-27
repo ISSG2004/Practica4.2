@@ -1,6 +1,13 @@
 /*
     Atributos que se aplican a todos los tamaños
 */
+*{
+    border: 1px solid salmon;
+}
+:root{
+    --color-principal:#212529;
+    --color-secundario:#a4a5a6;
+}
 body{
     width: 100%;
 }
@@ -15,8 +22,8 @@ body{
 }
 footer{
     margin-top: 20px;
-    background-color: #212529;
-    color: #a4a5a6;
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
     width: 100%;
     padding: 20px;
 }
@@ -24,7 +31,7 @@ h3{
     text-align: center;
 }
 h3~p{
-    color: #212529;
+    color: var(--color-principal);
 }
 ul{
     list-style-type: none;
@@ -32,10 +39,10 @@ ul{
 }
 ul li a{
     text-decoration: none;
-    color: #a4a5a6;
+    color: var(--color-secundario);
 }
 ul li a:visited{
-    color: #a4a5a6;
+    color: var(--color-secundario);
 }
 
 @media(min-width:768px){/*
