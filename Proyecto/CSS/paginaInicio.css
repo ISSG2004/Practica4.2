@@ -1,10 +1,16 @@
+:root{/*Variables para los colores*/
+    --color-principal:#212529;
+    --color-secundario:#a4a5a6;
+    --color-boton:#0095DA;
+    --texto-boton:#fff;
+}
 .btn_azul {
     position: relative;
     display: inline-block;
     padding: 10px 30px;
-    background-color: #0095DA;
+    background-color: var(--color-boton);
     border-radius: 5px;
-    color: #fff;
+    color: var(--texto-boton);
     text-decoration: none;
     font-weight: bold;
     margin-top: 15px;
@@ -12,10 +18,10 @@
     text-align: center;
 }
 .btn_azul:visited{
-    color: white;
+    color: var(--texto-boton);
 }
 h3~p{
-    color: #212529;
+    color: var(--color-principal);
 }
 @media(min-width:768px){
     
@@ -24,8 +30,5 @@ h3~p{
     .imagenReparto{
         width:80% ;
     }
-    .imagenSlideshow{
-        height: 60%;
-        width: 60%;
-    }
+    
 }
