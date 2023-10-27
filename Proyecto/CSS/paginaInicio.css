@@ -24,5 +24,7 @@ div + h5{
     
 }
 @media(min-width:992px){
-
+    .imagenReparto{
+        width:80% ;
+    }
 }
