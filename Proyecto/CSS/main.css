@@ -5,13 +5,13 @@
     --color-principal:#212529;
     --color-secundario:#a4a5a6;
 }
-main{
+main{/*Centrar contenido del main*/
    margin: 0 auto;
 }
-.espaciarElementos{
+.espaciarElementos{/*Clase creada para espaciar elementos*/
     padding: 20px;
 }
-.centrado{
+.centrado{/*Clase creada para centrar elementos*/
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -31,15 +31,15 @@ h3{
 p{
     font-size: 25px;
 }
-ul{
+ul{/*Eliminar el punto icono de la lista*/
     list-style-type: none;
 
 }
-ul li a{
+ul li a{/*Eliminar underline de los enlaces*/
     text-decoration: none;
     color: var(--color-secundario);
 }
-ul li a:visited{
+ul li a:visited{/*Eliminar el visited de los enlaces*/
     color: var(--color-secundario);
 }
 
@@ -52,6 +52,10 @@ ul li a:visited{
     }
     h3{
         text-align: center;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
     }
 }
 
@@ -66,6 +70,10 @@ ul li a:visited{
     }
     h3{
         text-align: left;
+        font-size: 23px;
+    }
+    p{
+        font-size: 15px;
     }
 
 }

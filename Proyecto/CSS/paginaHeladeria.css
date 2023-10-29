@@ -4,8 +4,12 @@
     --color-boton:#0095DA;
     --texto-boton:#fff;
 }
+body{
+    height: 100vh;
+}
+
 @media(min-width:768px){
-   
+    
 }
 
 @media(min-width:992px){
