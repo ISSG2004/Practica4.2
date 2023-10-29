@@ -31,7 +31,7 @@ h3{
 p{
     font-size: 25px;
 }
-ul{/*Eliminar el punto icono de la lista*/
+nav div ul, footer div ul{/*Eliminar el punto icono de la lista*/
     list-style-type: none;
 
 }

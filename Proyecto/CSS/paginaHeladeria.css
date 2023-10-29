@@ -4,8 +4,9 @@
     --color-boton:#0095DA;
     --texto-boton:#fff;
 }
-body{
-    height: 100vh;
+
+iframe{
+    height: 700px;
 }
 
 @media(min-width:768px){
