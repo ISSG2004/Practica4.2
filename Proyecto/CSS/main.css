@@ -7,6 +7,8 @@
 }
 main{/*Centrar contenido del main*/
    margin: 0 auto;
+   background-color:#fdf6e7;
+
 }
 .espaciarElementos{/*Clase creada para espaciar elementos*/
     padding: 20px;
@@ -19,7 +21,6 @@ main{/*Centrar contenido del main*/
 }
 footer{
     padding: 3px;
-    margin-top: 20px;
     background-color: var(--color-principal);
     color: var(--color-secundario);
     text-align: center;
@@ -41,6 +42,9 @@ ul li a{/*Eliminar underline de los enlaces*/
 }
 ul li a:visited{/*Eliminar el visited de los enlaces*/
     color: var(--color-secundario);
+}
+h3~p{
+    color: var(--color-principal);
 }
 
 @media(min-width:768px){/*

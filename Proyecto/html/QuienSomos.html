@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/quienSomos.css">
   <link rel="shortcut icon" href="../Imagenes/Logo.png" type="image/png">
 </head>
 
@@ -31,7 +32,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Nuestros servicios</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Pizzeria</a></li>
+              <li><a class="dropdown-item" href="../html/pizzeria.html">Pizzeria</a></li>
               <li><a class="dropdown-item" href="../html/heladeria.html">Heladeria</a></li>
               <li><a class="dropdown-item" href="#">Quisco el parque</a></li>
             </ul>
@@ -42,30 +43,40 @@
   </header>
   <main class="espaciarElementos">
     <div class="container-md">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <p>Burguer Angelo está presente en El Ejido hace más de dos décadas. En este tiempo siempre nos hemos caracterízado por la calidad de nuestros productos y el trato al cliente.
-                    Somos especialmente conocidos por el tamaño de nuestras hamburguesas.
-                    Disponemos de varios locales, cada uno especializado en un tipo de comida:</p>
-                <ul>
-                    <li>Burguer Angelo: especializado en una amplia lista de hamburguesas, bocadillos, sandwiches y platos combinados.</li>
-                    <li>Pizzeria Angelo: pizzas al gusto y pizzas especiales</li>
-                    <li>Heladeria Angelo: amplia carta de helados y batidos, así como gofres con helado.</li>
-                    <li>Quiosco el parque: la calidad de todos los productos Angelo en un ambiente inmejorable, el parque municipal de El Ejido.</li>
-                </ul>    
-                <p>Os invitamos a visitarnos y comprobarlo en primera persona.</p>
-            </div>
-            <div class="col-lg-8 col-md-6 col-sm-12">
-                <img src="../Imagenes/FotoSalonArriba.jpg" alt="salon planta superior" class="img-fluid">
-            </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12" >
+          <div id="infoTexto">
+            <p>Burguer Angelo está presente en El Ejido hace más de dos décadas. En este tiempo siempre nos hemos
+              caracterízado por la calidad de nuestros productos y el trato al cliente.
+              Somos especialmente conocidos por el tamaño de nuestras hamburguesas.
+              Disponemos de varios locales, cada uno especializado en un tipo de comida:</p>
+            <ul>
+              <li>Burguer Angelo: especializado en una amplia lista de hamburguesas, bocadillos, sandwiches y platos
+                combinados.</li>
+              <li>Pizzeria Angelo: pizzas al gusto y pizzas especiales</li>
+              <li>Heladeria Angelo: amplia carta de helados y batidos, así como gofres con helado.</li>
+              <li>Quiosco el parque: la calidad de todos los productos Angelo en un ambiente inmejorable, el parque
+                municipal de El Ejido.</li>
+            </ul>
+            <p>Os invitamos a visitarnos y comprobarlo en primera persona.</p>
+            <p>Recuerda, nos encontramos en Avenida del Oasís nº124 en El Ejido</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1598.020320876036!2d-2.801739748548889!3d36.769592465324024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7042c1c771e11f%3A0xf3a8ec3e4e570070!2sHamburgueser%C3%ADa%20Angelo!5e0!3m2!1ses!2ses!4v1698664958499!5m2!1ses!2ses"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
+        <div class="col-lg-8 col-md-6 col-sm-12" > 
+          <img src="../Imagenes/FotoSalonArriba.jpg" alt="salon planta superior" class="img-fluid">
+        </div>
+      </div>
     </div>
   </main>
   <footer class="container-fluid">
     <!-- place footer here -->
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 ">
-        <ul class="alinearIzquierda">
+        <ul>
           <li>
             <h4>Redes Sociales</h4>
           </li>
@@ -92,7 +103,10 @@
         </ul>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6">
-        <ul class="alinearDerecha">
+        <ul>
+          <li>
+            <h4>Datos del desarrolador</h4>
+          </li>
           <li>
             <h4> Contactar con nosotros </h4>
           </li>
