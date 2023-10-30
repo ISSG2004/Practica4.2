@@ -40,6 +40,10 @@ ul li a{/*Eliminar underline de los enlaces*/
     text-decoration: none;
     color: var(--color-secundario);
 }
+a:hover{
+    color: var(--color-secundario);
+}
+
 ul li a:visited{/*Eliminar el visited de los enlaces*/
     color: var(--color-secundario);
 }
