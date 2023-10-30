@@ -1,0 +1,36 @@
+#imagenPizzaTime {/*Seleccionar un orden para los elementos en distintos tamaños*/
+    order: 0;
+}
+
+#cartaPizza {
+    order: 1;
+}
+
+.carruselKebab{
+    order: 2;
+}
+h4+p{/*Todos los adyacentes de h4*/
+    font-style: italic;
+}
+@media (min-width: 768px) {/*Seleccionar un orden para los elementos en distintos tamaños*/
+    /* Breakpoint para dispositivos medianos */
+    #imagenPizzaTime {
+        order: 2;
+    }
+    #cartaPizza {
+        order: 0;
+    }
+}
+
+@media (min-width: 992px) {/*Seleccionar un orden para los elementos en distintos tamaños*/
+    /* Breakpoint para dispositivos grandes */
+    #imagenPizzaTime {
+        order: 1;
+    }
+    #cartaPizza {
+        order: 0;
+    }
+    .carruselKebab{
+        order: 2;
+    }
+}
