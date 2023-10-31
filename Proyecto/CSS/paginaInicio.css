@@ -36,6 +36,9 @@ h3~p{
 .imagenPortada{
     display: none;
 }
+.imagenReparto{
+    width: 100%;
+}
 @media(min-width:768px){
     .imagenPortada{
         display: none;

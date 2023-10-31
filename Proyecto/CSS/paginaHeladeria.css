@@ -14,8 +14,11 @@
 
 iframe{
     height: 700px;
+    width: 50%;
 }
-
+img{
+    border-radius: 15px;
+}
 @media(min-width:768px){
     
 }
