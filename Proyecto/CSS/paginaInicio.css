@@ -51,7 +51,7 @@ h3~p{
     }
     .imagenPortada{
         display: block;
-        
+        transition: transform 0.5s ease;
     }
     .imagenPortada,.carousel{
         height: 700px;
@@ -59,3 +59,16 @@ h3~p{
         margin:0;
     }
 }
+/*
+    Animaciones
+*/
+.btn_azul:hover {
+    transform: scale(110%);
+    transition-duration: 3s;
+  }
+  .imagenReparto:hover{
+    transform: scale(110%);
+    transition-duration: 3s;
+}
+
+  

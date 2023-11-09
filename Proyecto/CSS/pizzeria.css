@@ -14,7 +14,12 @@
 #cartaPizza {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
-            order: 1;
+            order:1;
+    
+}
+#imagenPizzaTime:hover{
+    transition-duration: 4s;
+    transform: translateX(-450px) skewX(20deg) rotate(40deg);
 }
 
 .carruselKebab{

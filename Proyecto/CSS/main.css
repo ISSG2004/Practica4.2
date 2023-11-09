@@ -103,5 +103,33 @@ h2~p{
     }
 
 }
+/*
+    Animaciones
+*/
+  .logoCabecera:hover{
+    animation: rotacion 4.5s infinite linear;
+  }
+  @keyframes rotacion {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
+
+  .desplazar {
+    animation: desplazamientoHorizontal 7s infinite linear;
+  }
+  
+  @keyframes desplazamientoHorizontal {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
 
