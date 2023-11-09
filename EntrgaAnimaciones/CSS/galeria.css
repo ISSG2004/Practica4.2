@@ -19,6 +19,5 @@ h2{
 */
 .card-body img:hover{
     transform: translateY(-40px);
-    transform: scale(1.2);
     transition-duration: 3s;
 }

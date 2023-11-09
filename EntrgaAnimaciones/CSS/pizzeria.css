@@ -14,7 +14,7 @@
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order:1;
-   
+    
 }
 /*Deformar la imagen al pasar por encima de ella(Solo ocurre en dispositivos pequeños y medianos)*/
 #imagenPizzaTime:hover{
@@ -30,6 +30,26 @@
 h4+p{/*Todos los adyacentes de h4*/
     font-style: italic;
 }
+/*
+    Animacion para que aparezca texto
+*/
+.textoAparecer {
+    opacity: 0;
+    transform: translateX(150px); /* Mueve los div hacia abajo */
+    transition: opacity 1s ease, transform 21s ease;
+    animation: aparicionTexto 1s ease forwards; 
+  }
+  
+  @keyframes aparicionTexto {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 @media (min-width: 768px) {/*Seleccionar un orden para los elementos en distintos tamaños*/
     /* Breakpoint para dispositivos medianos */
     #imagenPizzaTime {
@@ -52,8 +72,8 @@ h4+p{/*Todos los adyacentes de h4*/
                 order: 1;
         
     }
-    #imagenPizzaTime:hover{
-        transform: skewX(20deg) rotate(40deg);transform: skewX(20deg) rotate(40deg);
+    #imegenPizzaTime:hover{
+        transform: translate(50px, 50px) rotate(45deg) scale(1.5) skew(20deg, 10deg);
     }
     /*La transformacion consiste en mover 540px a la izquierda sobre el eje x
       Tambien deforma la imagen en 20 grados sobre el eje X
@@ -70,5 +90,3 @@ h4+p{/*Todos los adyacentes de h4*/
                 order: 2;
     }
 }
-
-
