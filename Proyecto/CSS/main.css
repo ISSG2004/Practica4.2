@@ -12,6 +12,9 @@
     --color-principal:#212529;
     --color-secundario:#a4a5a6;
 }
+body{
+    overflow: hidden;
+}
 main{/*Centrar contenido del main*/
    margin: 0 auto;
    background-color:#fdf6e7;
@@ -106,9 +109,9 @@ h2~p{
 /*
     Animaciones
 */
-  .logoCabecera:hover{
+  .logoCabecera:hover{/*Ponemos el tiempo de la animacion y que esta sea infinita mientras se pase por encima de ella*/
     animation: rotacion 4.5s infinite linear;
-  }
+  }/*Creamos una animacion en vase a la transformacion de rotar en 2d*/
   @keyframes rotacion {
     0% {
       transform: rotate(0deg);
@@ -117,19 +120,8 @@ h2~p{
       transform: rotate(360deg);
     }
   }
-
-
-  .desplazar {
-    animation: desplazamientoHorizontal 7s infinite linear;
-  }
+  /*Animacion fondo*/
   
-  @keyframes desplazamientoHorizontal {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
+
   
 

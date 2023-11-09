@@ -14,3 +14,11 @@ h2{
     padding: 10px;
     font-style: italic;
 }
+/*
+    Animaciones
+*/
+.card-body img:hover{
+    transform: translateY(-40px);
+    transform: scale(1.2);
+    transition-duration: 3s;
+}
