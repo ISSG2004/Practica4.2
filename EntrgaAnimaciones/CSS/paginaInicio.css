@@ -66,11 +66,11 @@ h3~p{
 con ese nombre de clase estos elementos se escalen un 10% mas grandes de 
 lo que son, tardando 3 segs en hacer el escalado*/
 .btn_azul:hover {
-    transform: scale(110%);
+    transform: scale(1.1);
     transition-duration: 3s;
   }
   .imagenReparto:hover{
-    transform: scale(110%);
+    transform: scale(1.1);
     transition-duration: 3s;
 }
 
